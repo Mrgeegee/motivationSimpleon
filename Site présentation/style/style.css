@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #010715;
+}
+#title_page
+{
+	color: azure;
+	font-size: 200%;
+	border-bottom: solid #C3B114;
+	
+}
+.menu_general
+{
+	
+	
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.menu_link{
+	color:azure;
+	font-size: 150%;
+}
+
+#history_link{
+	border-bottom: solid 2px #C3B114;
+	
+}
+#history_link:hover
+{
+	color: azure;
+	border-bottom: solid 2px white;
+}
+#motivation_link{
+	border-bottom: solid 2px #C3B114;
+	
+}
+#motivation_link:hover{
+	border-bottom: solid 2px white;
+	color: azure;
+	
+}
+#hobbies_link{
+	border-bottom: solid 2px #C3B114;
+	
+}
+#hobbies_link:hover{
+	border-bottom: solid 2px white;
+	color: azure;
+	
+	
+}
+
