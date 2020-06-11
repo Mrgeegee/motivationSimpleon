@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+#jumbotitre_style{
+	background-color: #061A35;
+	color: azure;
+	margin : 10%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	border: double #C3B114;
+	
+}
+.card_pres
+{
+	background-color: #061A35;
+	margin-left: 10%;
+	margin-right: 10%;
+	border: double #C3B114;
+}
+.card
+{
+	background-color: rgba(255, 255, 255, 0);
+	color: azure;
+}
+.pix
+{
+	margin-left: 10%;
+	margin-top: 10%;
+}
