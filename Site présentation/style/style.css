@@ -2,7 +2,9 @@
 /* CSS Document */
 body{
 	background-color: #010715;
+	color: azure;
 }
+
 #title_page
 {
 	color: azure;
@@ -43,6 +45,7 @@ body{
 #hobbies_link{
 	border-bottom: solid 2px #C3B114;
 	
+	
 }
 #hobbies_link:hover{
 	border-bottom: solid 2px white;
@@ -50,4 +53,12 @@ body{
 	
 	
 }
-
+#jumbotitre_style{
+	background-color: #061A35;
+	color: azure;
+	margin : 10%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	border: double #C3B114;
+	
+}
