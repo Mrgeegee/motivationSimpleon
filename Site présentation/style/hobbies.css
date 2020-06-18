@@ -24,11 +24,24 @@
     80%      { color: hsl(360, 65%, 45%); }
     90%      { color: hsl(324, 70%, 45%); }
 }
+@keyframes wheelHueColor3 {
+    from, to { border-color: hsl(324, 70%, 45%); }
+    10%      { border-color: hsl(360, 65%, 45%); }
+    20%      { border-color: hsl( 36, 80%, 45%); }
+    30%      { border-color: hsl( 72, 75%, 35%); }
+    40%      { border-color: hsl(108, 65%, 35%); }
+    50%      { border-color: hsl(144, 75%, 35%); }
+    60%      { border-color: hsl(180, 75%, 35%); }
+    70%      { border-color: hsl(216, 60%, 45%); }
+    80%      { border-color: hsl(252, 65%, 50%); }
+    90%      { border-color: hsl(288, 60%, 40%); }
+}
 #hobbies_link, #history_link{
 	border-bottom: solid 2px #C3B114;
 	animation: wheelHueColor 10s infinite;
 	
 }
+
 #history_link{
 	border-bottom: solid 2px #C3B114;
 	animation: wheelHueColor 10s infinite;
@@ -42,7 +55,8 @@
 	margin-left: 10%;
 	margin-right: 10%;
 	border: double #C3B114;
-	margin-bottom: 2%
+	margin-bottom: 2%;
+		animation: wheelHueColor3 10S infinite;
 }
 .card
 {
@@ -54,4 +68,9 @@
 	margin-right: 5%;
 	margin-left: 5%;
 	margin-bottom: 2%;
+}
+#jumbotitre_style
+{
+	border: solid 2px white;
+	animation: wheelHueColor3 10S infinite;
 }
